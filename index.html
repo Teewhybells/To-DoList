@@ -1,1 +1,62 @@
-Create a simple todo list that has the following functionalities:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DOList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h2>TO DOLIST</h2>
+    <h3>Add Item</h3>
+    <div class="new-task-container">
+    <input type="text" id="new-task" />
+    <button id="add-button">Add</button>
+    </div>
+
+    <h3>Todo</h3>
+    <ul id="incomplete-tasks">
+        <li>
+            <p>Host live session</p>
+        <button id="edit-button">Edit</button>
+        <button id="delete-button">Delete</button>
+        </li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-List</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+    </ul>
+  <body>
+    <div class="container flex">
+      <div class="card">
+        <div class="card-space">
+          <h1>To-DoList PAGE</h1>
+          <div class="action flex">
+            <input name="text" id="text" placeholder="Add Todo" />
+            <input type="hidden" id="saveIndex" />
+            <button id="add-task-btn">Add</button>
+            <button style="display: none" id="save-todo-btn">Edit Todo</button>
+          </div>
+        </div>
+        <div id="listBox"></div>
+      </div>
+    </div>
+    <style src="index.js"></style>
+</body>
+</html>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
+
